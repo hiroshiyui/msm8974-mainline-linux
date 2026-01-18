@@ -21,6 +21,10 @@
 			debounce-interval = <15>;
 		};
 	};
+
+	chosen {
+		bootargs = "root=/dev/mmcblk1p2 rootwait rw console=ttyMSM0,115200";
+	};
 };
 
 &gpio_keys_pin_a {
